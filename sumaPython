@@ -9,3 +9,22 @@ def sumavarios ():
                 mi suma = sum(lista)
                 print(misuma)
                 break
+
+---
+
+def sumavarios():
+    lista = []
+    while True:
+        numeros = input("Ingrese números o escriba 'sumar' para obtener la suma: ")
+        if numeros.isdigit():  # Comprueba si el input es un número
+            lista.append(int(numeros))  # Agrega el número a la lista
+            print("\nNúmeros ingresados hasta ahora:", lista)
+        elif numeros.lower() == "sumar":  # Verifica si el usuario quiere sumar los números
+            mi_suma = sum(lista)  # Calcula la suma de los números en la lista
+            print("La suma de los números es:", mi_suma)
+            break
+        else:
+            print("Entrada no válida. Intente nuevamente.")
+
+# Ejemplo de uso de la función
+sumavarios()
