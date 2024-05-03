@@ -1,0 +1,11 @@
+def sumavarios ():
+    lista = []
+    while True:
+        numeros = input("ingrese numeros")
+        if numeros == numeros:
+            lista.append (numeros)
+            print("\nNumeros a sumar hasta ahora", lista)
+            elif numeros = "sumar":
+                mi suma = sum(lista)
+                print(misuma)
+                break
