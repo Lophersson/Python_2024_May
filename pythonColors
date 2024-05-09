@@ -1,5 +1,6 @@
 #------------------------------------------------------
 # Fuente: http://stackoverflow.com/questions/4969543/colour-chart-for-tkinter-and-tix-using-python
+# https://patriciaemiguel.com/python/2019/08/01/python-tkinter-colores.html
 #------------------------------------------------------
 from tkinter import *
 
